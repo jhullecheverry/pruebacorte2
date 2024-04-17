@@ -1,4 +1,4 @@
-package repository;
+package cue.edu.co.repository;
 
 import java.util.List;
 

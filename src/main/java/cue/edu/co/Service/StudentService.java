@@ -1,10 +1,9 @@
-package Service;
+package cue.edu.co.Service;
 
-import dtos.StudentDto;
+import cue.edu.co.mapping.dtos.StudentDto;
+
 import java.util.List;
 
-public interface StudentService {
-
-    void addStudent(StudentDto student);
-    List<StudentDto> listAllStudent();
+public interface StudentService<T> {
+    List<T> listStudent();
 }

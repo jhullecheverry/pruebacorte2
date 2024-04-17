@@ -1,4 +1,4 @@
-package models;
+package cue.edu.co.models;
 
 import lombok.*;
 
@@ -13,7 +13,6 @@ import java.time.LocalDateTime;
 public class Student {
     private int id;
     private String name;
-    private double  price;
-    private LocalDateTime registrationDate;
-    private Category category;
+    private String email;
+    private int semester;
 }

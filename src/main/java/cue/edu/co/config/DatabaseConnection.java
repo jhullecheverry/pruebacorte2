@@ -1,4 +1,4 @@
-package config;
+package cue.edu.co.config;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

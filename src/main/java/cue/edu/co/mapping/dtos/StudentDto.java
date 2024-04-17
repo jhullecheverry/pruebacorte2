@@ -1,8 +1,7 @@
-package dtos;
+package cue.edu.co.mapping.dtos;
 import lombok.Builder;
-import models.Category;
 
 import java.time.LocalDateTime;
 @Builder
-public record StudentDto(String name, double price, LocalDateTime registrationDate, Category category) {
+public record StudentDto(String name,String email,int semester,int id) {
 }
